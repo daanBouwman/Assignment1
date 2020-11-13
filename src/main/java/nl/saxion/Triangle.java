@@ -1,3 +1,5 @@
+package nl.saxion;
+
 public class Triangle {
 
     private final int length1;
@@ -10,7 +12,7 @@ public class Triangle {
         this.length3 = length3;
     }
 
-    String getType() {
+    public String getType() {
 
         if (length1 + length2 > length3 && length1 + length3 > length2 && length2 + length3 > length1) {
             if (length1 == length2 && length2 == length3) {
